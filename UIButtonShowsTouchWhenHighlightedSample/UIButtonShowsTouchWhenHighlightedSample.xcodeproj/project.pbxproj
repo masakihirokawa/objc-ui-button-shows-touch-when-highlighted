@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26D36D11777E54E00AF47EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D36D01777E54E00AF47EF /* UIKit.framework */; };
+		C26D36D31777E54E00AF47EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D36D21777E54E00AF47EF /* Foundation.framework */; };
+		C26D36D51777E54E00AF47EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D36D41777E54E00AF47EF /* CoreGraphics.framework */; };
+		C26D36DB1777E54E00AF47EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C26D36D91777E54E00AF47EF /* InfoPlist.strings */; };
+		C26D36DD1777E54E00AF47EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26D36DC1777E54E00AF47EF /* main.m */; };
+		C26D36E11777E54E00AF47EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26D36E01777E54E00AF47EF /* AppDelegate.m */; };
+		C26D36E31777E54E00AF47EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D36E21777E54E00AF47EF /* Default.png */; };
+		C26D36E51777E54E00AF47EF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D36E41777E54E00AF47EF /* Default@2x.png */; };
+		C26D36E71777E54E00AF47EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C26D36E61777E54E00AF47EF /* Default-568h@2x.png */; };
+		C26D36EA1777E54E00AF47EF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26D36E81777E54E00AF47EF /* MainStoryboard.storyboard */; };
+		C26D36ED1777E54E00AF47EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26D36EC1777E54E00AF47EF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C26D36CD1777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonShowsTouchWhenHighlightedSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26D36D01777E54E00AF47EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C26D36D21777E54E00AF47EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C26D36D41777E54E00AF47EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C26D36D81777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIButtonShowsTouchWhenHighlightedSample-Info.plist"; sourceTree = "<group>"; };
+		C26D36DA1777E54E00AF47EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C26D36DC1777E54E00AF47EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C26D36DE1777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButtonShowsTouchWhenHighlightedSample-Prefix.pch"; sourceTree = "<group>"; };
+		C26D36DF1777E54E00AF47EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C26D36E01777E54E00AF47EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26D36E21777E54E00AF47EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C26D36E41777E54E00AF47EF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C26D36E61777E54E00AF47EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C26D36E91777E54E00AF47EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C26D36EB1777E54E00AF47EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C26D36EC1777E54E00AF47EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26D36CA1777E54E00AF47EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26D36D11777E54E00AF47EF /* UIKit.framework in Frameworks */,
+				C26D36D31777E54E00AF47EF /* Foundation.framework in Frameworks */,
+				C26D36D51777E54E00AF47EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26D36C41777E54E00AF47EF = {
+			isa = PBXGroup;
+			children = (
+				C26D36D61777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample */,
+				C26D36CF1777E54E00AF47EF /* Frameworks */,
+				C26D36CE1777E54E00AF47EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26D36CE1777E54E00AF47EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26D36CD1777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26D36CF1777E54E00AF47EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C26D36D01777E54E00AF47EF /* UIKit.framework */,
+				C26D36D21777E54E00AF47EF /* Foundation.framework */,
+				C26D36D41777E54E00AF47EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C26D36D61777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample */ = {
+			isa = PBXGroup;
+			children = (
+				C26D36DF1777E54E00AF47EF /* AppDelegate.h */,
+				C26D36E01777E54E00AF47EF /* AppDelegate.m */,
+				C26D36E81777E54E00AF47EF /* MainStoryboard.storyboard */,
+				C26D36EB1777E54E00AF47EF /* ViewController.h */,
+				C26D36EC1777E54E00AF47EF /* ViewController.m */,
+				C26D36D71777E54E00AF47EF /* Supporting Files */,
+			);
+			path = UIButtonShowsTouchWhenHighlightedSample;
+			sourceTree = "<group>";
+		};
+		C26D36D71777E54E00AF47EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C26D36D81777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample-Info.plist */,
+				C26D36D91777E54E00AF47EF /* InfoPlist.strings */,
+				C26D36DC1777E54E00AF47EF /* main.m */,
+				C26D36DE1777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample-Prefix.pch */,
+				C26D36E21777E54E00AF47EF /* Default.png */,
+				C26D36E41777E54E00AF47EF /* Default@2x.png */,
+				C26D36E61777E54E00AF47EF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26D36CC1777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26D36F01777E54E00AF47EF /* Build configuration list for PBXNativeTarget "UIButtonShowsTouchWhenHighlightedSample" */;
+			buildPhases = (
+				C26D36C91777E54E00AF47EF /* Sources */,
+				C26D36CA1777E54E00AF47EF /* Frameworks */,
+				C26D36CB1777E54E00AF47EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonShowsTouchWhenHighlightedSample;
+			productName = UIButtonShowsTouchWhenHighlightedSample;
+			productReference = C26D36CD1777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26D36C51777E54E00AF47EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dolice;
+			};
+			buildConfigurationList = C26D36C81777E54E00AF47EF /* Build configuration list for PBXProject "UIButtonShowsTouchWhenHighlightedSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C26D36C41777E54E00AF47EF;
+			productRefGroup = C26D36CE1777E54E00AF47EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26D36CC1777E54E00AF47EF /* UIButtonShowsTouchWhenHighlightedSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26D36CB1777E54E00AF47EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26D36DB1777E54E00AF47EF /* InfoPlist.strings in Resources */,
+				C26D36E31777E54E00AF47EF /* Default.png in Resources */,
+				C26D36E51777E54E00AF47EF /* Default@2x.png in Resources */,
+				C26D36E71777E54E00AF47EF /* Default-568h@2x.png in Resources */,
+				C26D36EA1777E54E00AF47EF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26D36C91777E54E00AF47EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26D36DD1777E54E00AF47EF /* main.m in Sources */,
+				C26D36E11777E54E00AF47EF /* AppDelegate.m in Sources */,
+				C26D36ED1777E54E00AF47EF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C26D36D91777E54E00AF47EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26D36DA1777E54E00AF47EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C26D36E81777E54E00AF47EF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26D36E91777E54E00AF47EF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C26D36EE1777E54E00AF47EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C26D36EF1777E54E00AF47EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26D36F11777E54E00AF47EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIButtonShowsTouchWhenHighlightedSample/UIButtonShowsTouchWhenHighlightedSample-Prefix.pch";
+				INFOPLIST_FILE = "UIButtonShowsTouchWhenHighlightedSample/UIButtonShowsTouchWhenHighlightedSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C26D36F21777E54E00AF47EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIButtonShowsTouchWhenHighlightedSample/UIButtonShowsTouchWhenHighlightedSample-Prefix.pch";
+				INFOPLIST_FILE = "UIButtonShowsTouchWhenHighlightedSample/UIButtonShowsTouchWhenHighlightedSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26D36C81777E54E00AF47EF /* Build configuration list for PBXProject "UIButtonShowsTouchWhenHighlightedSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26D36EE1777E54E00AF47EF /* Debug */,
+				C26D36EF1777E54E00AF47EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26D36F01777E54E00AF47EF /* Build configuration list for PBXNativeTarget "UIButtonShowsTouchWhenHighlightedSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26D36F11777E54E00AF47EF /* Debug */,
+				C26D36F21777E54E00AF47EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26D36C51777E54E00AF47EF /* Project object */;
+}
